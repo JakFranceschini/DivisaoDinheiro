@@ -1,0 +1,210 @@
+.paginaHome {
+    height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: #FCFCFC;
+    box-shadow: 0px 5px 5px #bdbdbd40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerIconeTitulo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.iconeTopBar {
+    width: 60px;
+    height: 60px;
+    margin-left: 260px;
+}
+
+.containerIconeTitulo h1 {
+    font-size: 2.2rem;
+    color: #3D3D3D;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#botaoDarkMode {
+    margin-right: 260px;
+    border: none;
+    background: #FCFCFC;
+    cursor: pointer;
+}
+
+#botaoDarkMode img{
+    width: 40px;
+    height: 40px;
+}
+
+.sectionPrincipal {
+    width: 1400px;
+    height: 800px;
+    background: #F0F0F0;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerCalculo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerReceita {
+    width: 420px;
+    height: 200px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerReceita h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerReceita h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.containerReceita input {
+    width: 355px;
+    height: 50px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.8rem;
+    color: #41C346;
+    font-weight: 800;
+    text-align: center;
+}
+
+.containerReceita input::-webkit-outer-spin-button,
+.containerReceita input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#containerTotal {
+    width: 420px;
+    height: 200px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botaoCalcular {
+    width: 220px;
+    height: 50px;
+    background: #41C346;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    color: #f5f5f5;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#botaoCalcular:hover {
+    background: #5adf5f;
+}
+
+#botaoCalcular:active {
+    background: #41C346;
+}
+
+#containerTotal h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+#containerTotal h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#labelResultado {
+    width: 220px;
+    height: 50px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: #41C346;
+    font-weight: 800;
+    display: none;
+}
+
+.containerDespesa {
+    width: 420px;
+    height: 200px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerDespesa input::-webkit-outer-spin-button,
+.containerDespesa input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.containerDespesa h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerDespesa h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.containerDespesa input {
+    width: 355px;
+    height: 50px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.8rem;
+    color: #C54E34;
+    font-weight: 800;
+    text-align: center;
+}
+

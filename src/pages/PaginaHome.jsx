@@ -24,8 +24,12 @@ function PaginaHome() {
         botaoVerResultados.style.alignItems = 'center';
         botaoVerResultados.style.justifyContent = 'center';
         
-        document.getElementById('tituloH2').innerHTML = 'Total liquido';
-        document.getElementById('tituloH3').innerHTML = 'Total liquido do mês';
+        const tituloH2 = document.getElementById('tituloH2');
+        tituloH2.innerHTML = 'Total liquido';
+        tituloH2.style.display = 'flex';
+        const tituloH3 = document.getElementById('tituloH3');
+        tituloH3.innerHTML = 'Total liquido do mês';
+        tituloH3.style.display = 'flex';
 
         const inputReceita = parseInt(document.getElementById('inputReceita').value);
         const inputDespesa = parseInt(document.getElementById('inputDespesa').value);

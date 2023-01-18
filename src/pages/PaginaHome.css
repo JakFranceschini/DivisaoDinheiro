@@ -13,7 +13,7 @@ nav {
     width: 100%;
     height: 80px;
     background: #FCFCFC;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,18 +38,6 @@ nav {
     margin-top: 15px;
 }
 
-#botaoDarkMode {
-    margin-right: 260px;
-    border: none;
-    background: #FCFCFC;
-    cursor: pointer;
-}
-
-#botaoDarkMode img{
-    width: 40px;
-    height: 40px;
-}
-
 .sectionPrincipal {
     width: 1400px;
     height: 750px;
@@ -60,7 +48,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerCalculo {
@@ -70,8 +58,8 @@ nav {
     justify-content: space-around;
 }
 
-.containerReceita {
-    width: 420px;
+#containerReceita {
+    width: 48%;
     height: 200px;
     background: #FCFCFC;
     border-radius: 10px;
@@ -79,21 +67,21 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
-.containerReceita h2 {
+#containerReceita h2 {
     color: #3D3D3D;
     font-size: 1.5rem;
 }
 
-.containerReceita h3 {
+#containerReceita h3 {
     color: #848484;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.containerReceita input {
+#containerReceita input {
     width: 355px;
     height: 50px;
     background: #F0F0F0;
@@ -105,11 +93,11 @@ nav {
     color: #41C346;
     font-weight: 800;
     text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #63636333 0px 2px 8px 0px;
 }
 
-.containerReceita input::-webkit-outer-spin-button,
-.containerReceita input::-webkit-inner-spin-button {
+#containerReceita input::-webkit-outer-spin-button,
+#containerReceita input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -123,7 +111,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 #botaoCalcular {
@@ -137,7 +125,7 @@ nav {
     color: #f5f5f5;
     font-weight: 800;
     cursor: pointer;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 #botaoCalcular:hover {
@@ -160,21 +148,16 @@ nav {
 }
 
 #labelResultado {
-    width: 220px;
-    height: 50px;
-    background: #F0F0F0;
     border-radius: 10px;
-    border: 1px solid #CECECE;
     margin-top: 10px;
     font-size: 1.8rem;
     color: #41C346;
     font-weight: 800;
     display: none;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.containerDespesa {
-    width: 420px;
+#containerDespesa {
+    width: 48%;
     height: 200px;
     background: #FCFCFC;
     border-radius: 10px;
@@ -182,21 +165,21 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
-.containerDespesa h2 {
+#containerDespesa h2 {
     color: #3D3D3D;
     font-size: 1.5rem;
 }
 
-.containerDespesa h3 {
+#containerDespesa h3 {
     color: #848484;
     font-size: 1rem;
     font-weight: 400;
 }
 
-.containerDespesa input {
+#containerDespesa input {
     width: 355px;
     height: 50px;
     background: #F0F0F0;
@@ -208,11 +191,11 @@ nav {
     color: #C54E34;
     font-weight: 800;
     text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #63636333 0px 2px 8px 0px;
 }
 
-.containerDespesa input::-webkit-outer-spin-button,
-.containerDespesa input::-webkit-inner-spin-button {
+#containerDespesa input::-webkit-outer-spin-button,
+#containerDespesa input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -234,7 +217,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerPorcentagemGastos h2 {
@@ -260,7 +243,7 @@ nav {
     color: #5B5B5B;
     font-weight: 700;
     text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #63636333 0px 2px 8px 0px;
 }
 
 .containerPorcentagemGastos input::-webkit-outer-spin-button,
@@ -278,7 +261,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerPorcentagemInvestimentos h2 {
@@ -304,7 +287,7 @@ nav {
     color: #5B5B5B;
     font-weight: 700;
     text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #63636333 0px 2px 8px 0px;
 }
 
 .containerPorcentagemInvestimentos input::-webkit-outer-spin-button,
@@ -322,7 +305,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerPorcentagemReserva h2 {
@@ -348,7 +331,7 @@ nav {
     color: #5B5B5B;
     font-weight: 700;
     text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #63636333 0px 2px 8px 0px;
 }
 
 .containerPorcentagemReserva input::-webkit-outer-spin-button,
@@ -368,7 +351,7 @@ nav {
     font-weight: 800;
     cursor: pointer;
     margin-top: 25PX;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 #botaoVerResultados:hover {
@@ -396,7 +379,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerGastos h2 {
@@ -425,7 +408,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerInvestimentos h2 {
@@ -454,7 +437,7 @@ nav {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 .containerReserva h2 {
@@ -485,7 +468,7 @@ nav {
     font-weight: 800;
     cursor: pointer;
     margin-top: 25PX;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: #64646f33 0px 7px 29px 0px;
 }
 
 #botaoZerar:hover {

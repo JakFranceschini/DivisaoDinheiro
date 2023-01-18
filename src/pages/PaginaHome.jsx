@@ -1,7 +1,6 @@
 import React from "react";
 import "./PaginaHome.css";
 import IconeTopBar from "../img/iconeTopBar.png";
-import IconeDarkMode from "../img/iconeDarkMode.png";
 import { useEffect } from "react";
 
 function PaginaHome() {
@@ -16,6 +15,8 @@ function PaginaHome() {
       botaoVerResultados.style.display = 'none';
       let botaoZerar = document.getElementById('botaoZerar');
       botaoZerar.style.display = 'none';
+      let containerTotal = document.getElementById('containerTotal');
+      containerTotal.style.display = 'none';
 
       botaoCalcular.addEventListener('click', function(){
         botaoCalcular.style.display = 'none';
@@ -23,6 +24,12 @@ function PaginaHome() {
         botaoVerResultados.style.display = 'flex';
         botaoVerResultados.style.alignItems = 'center';
         botaoVerResultados.style.justifyContent = 'center';
+
+        const containerReceita = document.getElementById('containerReceita');
+        containerReceita.style.width = '420px';
+        containerTotal.style.display = 'flex';
+        const containerDespesa = document.getElementById('containerDespesa');
+        containerDespesa.style.width = '420px';
         
         const tituloH2 = document.getElementById('tituloH2');
         tituloH2.innerHTML = 'Total liquido';
@@ -36,7 +43,7 @@ function PaginaHome() {
         const resultado = inputReceita - inputDespesa;
 
         const labelResultado = document.getElementById('labelResultado');
-        labelResultado.innerHTML = resultado;
+        labelResultado.innerHTML = resultado.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
         labelResultado.style.display = 'flex';
         labelResultado.style.alignItems = 'center';
         labelResultado.style.justifyContent = 'center';
@@ -56,17 +63,17 @@ function PaginaHome() {
         const inputPorecentagemGastos = parseInt(document.getElementById('inputPorecentagemGastos').value);
         const labelGastos = document.getElementById('labelGastos');
         const resultadoGastos = resultado * inputPorecentagemGastos / 100;
-        labelGastos.innerHTML = resultadoGastos;
+        labelGastos.innerHTML = resultadoGastos.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
         const inputPorecentagemInvestimentos = parseInt(document.getElementById('inputPorecentagemInvestimentos').value);
         const labelInvestimentos = document.getElementById('labelInvestimentos');
         const resultadoInvestimentos = resultado * inputPorecentagemInvestimentos / 100;
-        labelInvestimentos.innerHTML = resultadoInvestimentos;
+        labelInvestimentos.innerHTML = resultadoInvestimentos.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
         const inputPorecentagemReserva = parseInt(document.getElementById('inputPorecentagemReserva').value);
         const labelReserva = document.getElementById('labelReserva');
         const resultadoReserva = resultado * inputPorecentagemReserva / 100;
-        labelReserva.innerHTML = resultadoReserva;
+        labelReserva.innerHTML = resultadoReserva.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
       });
 
       botaoZerar.addEventListener('click', function(){
@@ -76,6 +83,12 @@ function PaginaHome() {
         botaoCalcular.style.display = 'flex';
         botaoCalcular.style.alignItems = 'center';
         botaoCalcular.style.justifyContent = 'center';
+        
+        const containerReceita = document.getElementById('containerReceita');
+        containerReceita.style.width = '48%';
+        containerTotal.style.display = 'none';
+        const containerDespesa = document.getElementById('containerDespesa');
+        containerDespesa.style.width = '48%';
         
         document.getElementById('tituloH2').style.display = 'none';
         document.getElementById('tituloH3').style.display = 'none';
@@ -95,28 +108,30 @@ function PaginaHome() {
             <img className="iconeTopBar" src={IconeTopBar}/>
             <h1>Minha divisão de dinheiro</h1>
           </div>
-          <button id="botaoDarkMode"><img src={IconeDarkMode}/></button>
         </nav>
 
         <section className="sectionPrincipal">
           <div className="containerCalculo">
-            <div className="containerReceita">
+            <div id="containerReceita">
               <h2>Total recebido</h2>
               <h3>Digite o total recebido no mês</h3>
               <input id="inputReceita" type="number"/>
             </div>
+
             <div id="containerTotal">
-              <button id="botaoCalcular">Calcular</button>
               <h2 id="tituloH2"></h2>
               <h3 id="tituloH3"></h3>
               <label id="labelResultado"></label>
             </div>
-            <div className="containerDespesa">
+
+            <div id="containerDespesa">
               <h2>Total de contas</h2>
               <h3>Digite o total das contas do mês</h3>
               <input id="inputDespesa" type="number"/>
             </div>
           </div>
+
+          <button id="botaoCalcular">Calcular</button>
 
           <div id="containerPorcentagens">
             <div className="containerPorcentagemGastos">
@@ -159,6 +174,6 @@ function PaginaHome() {
         </section>
       </div>
     );
-  }
+}
   
   export default PaginaHome;

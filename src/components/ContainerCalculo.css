@@ -1,0 +1,126 @@
+.containerCalculo {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#containerReceita {
+    width: 48%;
+    height: 200px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+#containerReceita h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+#containerReceita h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#containerReceita input {
+    width: 355px;
+    height: 50px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.8rem;
+    color: #41C346;
+    font-weight: 800;
+    text-align: center;
+    box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+#containerReceita input::-webkit-outer-spin-button,
+#containerReceita input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#containerTotal {
+    width: 420px;
+    height: 200px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+#containerTotal h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+#containerTotal h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#labelResultado {
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: #41C346;
+    font-weight: 800;
+    display: none;
+}
+
+#containerDespesa {
+    width: 48%;
+    height: 200px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+#containerDespesa h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+#containerDespesa h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#containerDespesa input {
+    width: 355px;
+    height: 50px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.8rem;
+    color: #C54E34;
+    font-weight: 800;
+    text-align: center;
+    box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+#containerDespesa input::-webkit-outer-spin-button,
+#containerDespesa input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,139 @@
+#containerPorcentagens {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.containerPorcentagemGastos {
+    width: 420px;
+    height: 150px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.containerPorcentagemGastos h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerPorcentagemGastos h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#inputPorecentagemGastos {
+    width: 80px;
+    height: 40px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.5rem;
+    color: #5B5B5B;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+.containerPorcentagemGastos input::-webkit-outer-spin-button,
+.containerPorcentagemGastos input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.containerPorcentagemInvestimentos {
+    width: 420px;
+    height: 150px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.containerPorcentagemInvestimentos h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerPorcentagemInvestimentos h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#inputPorecentagemInvestimentos {
+    width: 80px;
+    height: 40px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.5rem;
+    color: #5B5B5B;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+.containerPorcentagemInvestimentos input::-webkit-outer-spin-button,
+.containerPorcentagemInvestimentos input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.containerPorcentagemReserva {
+    width: 420px;
+    height: 150px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.containerPorcentagemReserva h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerPorcentagemReserva h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#inputPorecentagemReserva {
+    width: 80px;
+    height: 40px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: 1px solid #CECECE;
+    margin-top: 10px;
+    outline: none;
+    font-size: 1.5rem;
+    color: #5B5B5B;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: #63636333 0px 2px 8px 0px;
+}
+
+.containerPorcentagemReserva input::-webkit-outer-spin-button,
+.containerPorcentagemReserva input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

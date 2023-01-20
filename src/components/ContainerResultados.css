@@ -1,0 +1,94 @@
+#containerResultados {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.containerGastos {
+    width: 420px;
+    height: 150px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.containerGastos h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerGastos h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#labelGastos {
+    color: #41C346;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.containerInvestimentos {
+    width: 420px;
+    height: 150px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.containerInvestimentos h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerInvestimentos h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#labelInvestimentos {
+    color: #41C346;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.containerReserva {
+    width: 420px;
+    height: 150px;
+    border-radius: 10px;
+    background: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.containerReserva h2 {
+    color: #3D3D3D;
+    font-size: 1.5rem;
+}
+
+.containerReserva h3 {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#labelReserva {
+    color: #41C346;
+    font-size: 1.8rem;
+    font-weight: 800;
+}

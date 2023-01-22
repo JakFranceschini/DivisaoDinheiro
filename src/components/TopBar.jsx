@@ -7,7 +7,7 @@ function TopBar() {
     <div className="topBar">
       <nav>
         <img src={IconeTopBar} />
-        <h1>Minha divisão de dinheiro</h1>
+        <h1>divisor de dinheiro</h1>
       </nav>
     </div>
   );
